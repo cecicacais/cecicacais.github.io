@@ -1,84 +1,81 @@
 
-body {background-color: #b9d3ee}
-            
-.nomeTitulo {color: #0d1321; font-family: 'Amiri'; }
-
-    div h2.nomeTitulo{
-        margin:10px;
-        margin-top: 20px;
-        
-    }
-    div h1.nomeTitulo{
-        text-align: center;
-        background-attachment: ;
-        }
-
-
-.nomeSubTitulos {color: white ; font-size: 30px;}
-       div.alinhamentoSubTitulos {
-           margin: 20px;
-           background-color: #1d2d44
-           ;
-       }
-
-
-.textoSobreMim {color: #1d2d44; font-family: 'serif';}
-        div p.textoSobreMim{
-            width: 400px;
-            margin: 10px;
-            position: absolute;
-            left: 240px;
-            top: 250px ;
-            
-        }
-        div p.sobreMim{
-            position: absolute;
-            left:250px;
-            top:180px;
-            background-color: #1d2d44;
-            }
-
-div img{
-    margin:20px;
-    padding: 5px 5px 5px 5px;
-    background-color: #0d1321;
+body {
+    background-color: #b9d3ee;
+    margin: 0;    
 }
 
-
-.textoLinkRedeSocial { 
-    text-decoration: none;
-     color: #1d2d44; 
-     font-family: 'serif' ;
-     margin: 20px;
-     font-size: 20px;
-    }
-
-    div.bordaLink:hover {
-        border: 1px solid; color: #36648b;
-    }
-    div.bordaLink:active{
-        background-color: #36648b;
-    }
-
-    
-
-
-.textoLinkLista{ text-decoration: none; color: #1d2d44; font-family: 'serif'}
-    li.bordaLink:hover{
-        border: 1px solid; color: #36648b;
-    }
-    li.bordaLink:active{
-        background-color: #36648b;
-    }
-    
-
-.textoLista{color: #1d2d44; font-family: 'serif'; font-size: 20px ;}
-
-
-ul li:nth-child(odd){
-    font-weight: bolder;
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1d2d44;
+    color: #6c7b8b;
 }
 
+#nomeFixo {
+    text-align: center;
+}
+
+#nomePortifolio {
+    text-align: left;
+    margin-left: 10px;
+}
+
+article {
+    width: 75%;
+    position: relative;
+    top: 150px;
+    margin-left: 5px;
+}
+
+.posicaoArtigo {
+    width: 500px;
+    position: absolute;
+    top: 90px;
+    left: 250px;
+}
+#posicaotituloArtigo {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+}
+#fotoCecilia {
+
+}
+
+.subTitulos {
+
+}
+
+#textoPrincipal {
+    
+}
+
+section {
+    width: 75%;
+    position: relative;
+    top: 200px;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #1d2d44;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 120px;
+    left: 1050px;
+    padding-left: 20px;
+    color: #6c7b8b;
+}
+
+footer {
+    background-color: #1d2d44;
+    text-align: center;
+    position: relative;
+    top: 400px;
+    padding: 3px;
+}
 
 
 
