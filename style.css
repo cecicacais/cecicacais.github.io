@@ -2,14 +2,15 @@
 body {
     background-color: #b9d3ee;
     margin: 0;    
+    color: #363636;
 }
 
 header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #1d2d44;
-    color: #6c7b8b;
+    background-color: #CAE1FF;
+    color: #363636;
 }
 
 #nomeFixo {
@@ -59,25 +60,41 @@ section {
 }
 
 nav {
-    background-color: #1d2d44;
-    width: 200px;
+    background-color: #CAE1FF;
+    width: 180px;
     height: 100%;
     position: fixed;
     top: 120px;
-    left: 1050px;
+    left: 1080px;
     padding-left: 20px;
-    color: #6c7b8b;
+    color: #363636;
 }
 
 footer {
-    background-color: #1d2d44;
+    background-color: #CAE1FF;
+    color: #363636;
     text-align: center;
     position: relative;
     top: 400px;
     padding: 3px;
 }
 
+a:link {
+    text-decoration: none;
+    color:#363636
+}
 
+a:visited {
+    color:#363636
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    background-color: #b9d3ee;
+}
 
 
 
