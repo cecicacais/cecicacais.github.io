@@ -1,100 +1,74 @@
-
-body {
-    background-color: #b9d3ee;
-    margin: 0;    
-    color: #363636;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 header {
+    background-color: #F0F8FF;
+    color: 	#2F4F4F;
     position: fixed;
-    top: 0;
     width: 100%;
-    background-color: #CAE1FF;
-    color: #363636;
-}
-
-#nomeFixo {
-    text-align: center;
-}
-
-#nomePortifolio {
-    text-align: left;
-    margin-left: 10px;
-}
-
-article {
-    width: 75%;
-    position: relative;
-    top: 150px;
-    margin-left: 5px;
-}
-
-.posicaoArtigo {
-    width: 500px;
-    position: absolute;
-    top: 90px;
-    left: 250px;
-}
-#posicaotituloArtigo {
-    position: absolute;
-    top: 50px;
-    left: 250px;
-}
-#fotoCecilia {
-
-}
-
-.subTitulos {
-
-}
-
-#textoPrincipal {
-    
-}
-
-section {
-    width: 75%;
-    position: relative;
-    top: 200px;
-    margin-left: 10px;
+    padding: 0 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 nav {
-    background-color: #CAE1FF;
-    width: 180px;
-    height: 100%;
-    position: fixed;
-    top: 120px;
-    left: 1080px;
-    padding-left: 20px;
-    color: #363636;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    background-color: #2F4F4F;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main img {
+    margin-top: 20%;
+    max-width: 30%;
+    width: auto;
+    align-self: center;
+}
+
+main p {
+    padding: 5% 10%;
+    text-align: center;
+    color: #F0F8FF;
+}
+article {
+    background-color: #F0F8FF;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+article h3 {
+    padding: 2% 4%;
+    color: #2F4F4F
+}
+
+article p {
+    padding: 0% 4%;
+    color: #4F4F4F;    
+}
+
+article li {
+    padding: 0% 4%;
+    list-style: none;
+    color: #4F4F4F; 
 }
 
 footer {
-    background-color: #CAE1FF;
-    color: #363636;
+    background-color: #2F4F4F ;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    position: relative;
-    top: 400px;
-    padding: 3px;
+    padding: 1% 0%;
+    margin-top: 1%;
+    color: #F0F8FF;
 }
-
-a:link {
-    text-decoration: none;
-    color:#363636
-}
-
-a:visited {
-    color:#363636
-}
-
-a:hover {
-    color: black;
-}
-
-a:active {
-    background-color: #b9d3ee;
-}
-
-
-
